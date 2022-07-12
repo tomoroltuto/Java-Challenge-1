@@ -6,7 +6,7 @@ public class Main {
 		System.out.println("HelloWorld");
 		System.out.println("");
 		
-        //HelloWorldを10回出力
+		//HelloWorldを10回出力
 		System.out.println("②　HelloWorldを10回出力");
 		for (int i = 0; i < 10; i++) {
 			System.out.println("HelloWorld");
@@ -22,5 +22,11 @@ public class Main {
 				System.out.println("Hello");
 			}
 		}
+		System.out.println("");
+		//三項演算子という記法を使って11回目はHelloだけ出力
+		System.out.println("④　三項演算子を使用して11回目はHelloだけ出力");		
+	    for(int i = 0; i <= 10; i++) {
+	     System.out.println(i == 10 ? "Hello" : "Hello World"); 
+	    }
 	}
 }
